@@ -1,0 +1,39 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "GUI Test Automation using WebDriverIO",
+  "main": "index.js",
+  "scripts": {
+    "assessment": "wdio wdio.conf.js",
+    "smoke-test": "wdio wdio.conf.js",
+    "regression-test": "wdio wdio.conf.js"
+  },
+  "author": "Vinod",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/register": "^7.13.16",
+    "@rpii/wdio-html-reporter": "^7.0.0",
+    "@wdio/cli": "^7.7.3",
+    "@wdio/local-runner": "^7.7.3",
+    "@wdio/mocha-framework": "^7.7.3",
+    "@wdio/spec-reporter": "^7.7.3",
+    "chromedriver": "^91.0.0",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "wdio-chromedriver-service": "^7.1.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svinodkmr/BetterCloudAssesment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/svinodkmr/BetterCloudAssesment/issues"
+  },
+  "homepage": "https://github.com/svinodkmr/BetterCloudAssesment#readme"
+}
